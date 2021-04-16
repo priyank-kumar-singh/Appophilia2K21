@@ -19,7 +19,7 @@ class HomeHeader extends StatelessWidget {
     return Column(
       children: [
         ClipRRect(
-          borderRadius: BorderRadius.all(Radius.circular(8.0)),
+          borderRadius: BorderRadius.all(Radius.circular(14.0)),
           child: Image.asset(image),
         ),
         SizedBox(

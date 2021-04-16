@@ -3,6 +3,7 @@ import 'package:code_bites/models/app.dart';
 import 'package:code_bites/themes/dark.dart';
 import 'package:code_bites/themes/light.dart';
 import 'package:code_bites/views/home.dart';
+import 'package:code_bites/views/news.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -35,10 +36,7 @@ class _MyAppState extends State<MyApp> {
       theme: lightTheme,
       darkTheme: darkTheme,
       themeMode: currentAppTheme.themeMode,
-      initialRoute: '/',
-      routes: {
-        '/': (context) => HomeScreen(),
-      },
+      home: NewsScreen(),
     );
   }
 }
